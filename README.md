@@ -2,8 +2,10 @@
 
 This badge was created for the 10th anniversay event for GrrCON at the DeVos Center in Grand Rapids, MI September 16-17, 2021.
 
-# Description
-Think of this project simply as a skull shaped Arduino. The goal was to create the classic GrrCON skull branding in the form of a digital badge. The front of the badge takes the look of the circuit traces and parts to a level of exposing some non-conductive copper to be coated with LF HASL for a reflective light effect.
+
+#Description
+Think of this project simply as a skull shaped Arduino. The goal was to create the classic GrrCON skull branding in the form of a digital badge and hackable platform. The front of the badge takes the look of the circuit traces and parts to a level of exposing some non-conductive copper to be coated with LF HASL for a reflective light effect.
+
 
 Surrounding the skull in bright orange LEDs gives it an effect of shooting fire from behind. The pattern is based upon motion events detected by the LIS3DH acceleromoter. One of seven functions will be selected, including a secret message. The eyes have no mask to expose the FR4  
 
