@@ -23,6 +23,8 @@ To extend the capabilities and program the GrrCON0xA digital badge, follow these
   * Board Library for generic AVR programming [MiniCore](https://github.com/MCUdude/MiniCore)
   * Bootloader Flashing [Fuse Calculator](https://eleccelerator.com/fusecalc/fusecalc.php?chip=atmega328p)
   * Thank you Nick Gammon for your [Arduino Sketches](https://github.com/nickgammon/arduino_sketches)
+  * [Adafruit LIS3DH](https://github.com/adafruit/Adafruit_LIS3DH) library
+  * [Adafruit sensor](https://github.com/adafruit/Adafruit_Sensor) library
 
 Please refer to the manufacturer's installations instructions.
 
