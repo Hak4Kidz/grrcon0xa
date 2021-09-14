@@ -484,27 +484,8 @@ boolean morseCode() {
           
      // Check for a single or double tap and then display the LEDs
      click = lis.getClick();
-     click = click & 0x30;
-
-     switch (click) {
-       case 0: break;
-       case 0x10:
-         dit();
-         ElapsedTime = 0;
-         // uncomment for debugging
-         Serial.print("Dit detected (0x"); Serial.print(click, HEX); Serial.println(")");
-         break;
-       case 0x20:
-         dah();
-         ElapsedTime = 0;
-         // uncomment for debugging
-         Serial.print("Dah detected (0x"); Serial.print(click, HEX); Serial.println(")");
-         break;
-       default:
-         break;  
-     }
-
-    /* if (click == 0) continue;
+     
+     if (click == 0) continue;
      if (! (click & 0x30)) continue;
 
      // Single tap (click) check 0x10 or B00010000
@@ -525,8 +506,7 @@ boolean morseCode() {
       ElapsedTime = 0;
       continue;
      }
-     */
-     
+          
      // Check time after last sensor reading. 
      // Calc ElapsedTime, check if ElapsedTime is less than 1 minute
      CurrentTime = millis();
