@@ -2,10 +2,8 @@
 
 This badge was created for the 10th anniversay event for GrrCON at the DeVos Center in Grand Rapids, MI September 16-17, 2021.
 
-
-#Description
+# Description
 Think of this project simply as a skull shaped Arduino. The goal was to create the classic GrrCON skull branding in the form of a digital badge and hackable platform. The front of the badge takes the look of the circuit traces and parts to a level of exposing some non-conductive copper to be coated with LF HASL for a reflective light effect.
-
 
 Surrounding the skull in bright orange LEDs gives it an effect of shooting fire from behind. The pattern is based upon motion events detected by the LIS3DH acceleromoter. One of seven functions will be selected, including a secret message. The eyes have no mask to expose the FR4  
 
@@ -31,7 +29,7 @@ Please refer to the manufacturer's installations instructions.
 # Build of Materials (BOM)
 
 Quick badge BOM:
-1. BATTERY RETAINER COIN 20MM SMD Mfg Part No.: S8211-46R	Ref: BT1	Q: 1
+1. BATTERY RETAINER COIN 20MM SMD *Mfg Part No.:* S8211-46R	Ref: BT1	Q: 1
 2. CAP Cer 0.1uf 50v Y5V 0603 SMD	Mfg Part No.: CL10F104ZB8NNNC	Ref: C1 C4 C5	Q: 3
 3. 22pF ±5% 50V C0G 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS	Mfg Part No.: CL21C220JBANNNC	Ref: C2 C3	Q: 2
 4. CAP CER 10UF 6.3V X5R 0603	Mfg Part No.: CL10A106KQ8NNWC	Ref: C6	Q: 1
