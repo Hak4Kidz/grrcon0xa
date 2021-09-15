@@ -28,7 +28,7 @@ To extend the capabilities and program the GrrCON0xA digital badge, follow these
 
 Please refer to the manufacturer's installations instructions.
 
-# Build of Materials (BOM)
+# Bill of Materials (BOM)
 
 Quick badge BOM:
 1. BATTERY RETAINER COIN 20MM SMD 	*Mfg Part No.:* S8211-46R	Ref: BT1	Q: 1
